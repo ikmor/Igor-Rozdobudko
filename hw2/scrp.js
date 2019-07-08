@@ -16,62 +16,6 @@ log(sum()); // 0
   
 log("Функции высшего порядка. Задачи.");
 
-
-// function wtfFunction(args, handler) {
-//     return "New value: " + handler(args);
-// }
-
-// log(wtfFunction(["my", "name", "is", "Trinity"], (args) => {
-
-//     let result = "";
-
-//     for(let i =0; i < args.length; i++) {
-//         result += args[i][0].toUpperCase() + args[i].slice(1);
-//     }
-
-//     return result;
-// }));
-
-
-// let result = wtfFunction ([10, 20, 30], (args) => 
-// {
-//     log("asdasd");
-//     for(let i =0; i < args.length; i++) {
-//         args[i] = args[i] * 10;
-//     }
-
-//     return Array.prototype.join.call(args, ", ");
-// } );
-
-// log(result);
-
-
-
-// result = wtfFunction([{age: 45, name: "Jhon"}, {age: 20, name: "Aaron"}], (args) => {
-
-//     let result = [];
-
-//     for(let i =0; i < args.length; i++) {
-//         result[i] = `${args[i]["name"]} is ${args[i]["age"]}`;
-//     }
-
-//     return Array.prototype.join.call(result, ", ");
-// });
-// log(result);
-
-
-// result = wtfFunction(["abc", "123"], (args) => {
-
-//     let result = [];
-
-//     for(let i =0; i < args.length; i++) {
-//         result[i] = args[i].split("").reverse().join("");
-//     }
-
-//     return Array.prototype.join.call(result, ", ");
-// });
-// log(result);
-
 function joinArray(args, handler, separator = "") {
     let result = [];
 
